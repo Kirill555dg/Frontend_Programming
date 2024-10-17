@@ -37,7 +37,7 @@
   width: 388px;
   bottom: 30px;
   left: 64px;
-  
+
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -45,7 +45,7 @@
 }
 
 .header__link {
-  
+
   text-decoration: none;
   color: #2f80ed;
 
@@ -89,8 +89,7 @@
 }
 
 .description {
-
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
 }
@@ -154,7 +153,7 @@
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -178,14 +177,14 @@
 }
 .table__cell {
   width: 250px;
-  margin-top: 60px;
+  padding-top: 60px;
 }
 /* и элемента с модификатором вида ключ-значение */
   .table__cell_theme_dark {
     width: 200px;
     color: white;
-    margin-right: 0;
-    margin-top: 80px;
+    padding-right: 0;
+    padding-top: 80px;
   }
 
 .table__heading {
@@ -195,12 +194,12 @@
   font-weight: 600;
 }
 .table__heading_theme_dark {
-  color: #f2f2f2; 
+  color: #f2f2f2;
 }
 
 .table__text {
   margin: 0;
-  margin-top: 20px;
+  padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -270,11 +269,11 @@
   background-repeat: no-repeat;
   position: absolute;
   right: -210px;
-  top: 0px; 
+  top: 0px;
 }
 
 .footer {
-  
+
   padding: 60px 0 40px;
   background-color: #1f1f1f;
   box-sizing: border-box;
@@ -304,12 +303,6 @@
   font-weight: normal;
 }
 
-.footer__column_content_info {
-
-}
-.footer__column_content_social {
-
-}
 .footer__column-links{
   display: flex;
   flex-direction: column;
@@ -332,5 +325,5 @@
 .footer__social-icon{
   width: 16px;
   height: 16px;
-  margin-right: 10px;
+  padding-right: 10px;
 }
